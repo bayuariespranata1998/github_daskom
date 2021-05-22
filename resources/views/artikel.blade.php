@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="/CSS/main.css">
     <title> Artikel </title>
 </head>
 <body>
@@ -42,16 +43,21 @@
     </br>framework sendiri memiliki beberapa jenis yaitu :</br>
     <ol type="I">
         <li> Framework PHP </li>
-        <p> untuk framework PHP sendiri memiliki banyak jenis untuk info lebih lengkapnya bisa klik link dibawah </br>
+        <p> untuk framework PHP sendiri memiliki banyak jenis untuk info lebih lengkapnya bisa klik link dibawah
         <a href="https://www.hostinger.co.id/blog/framework-php-terbaik/"> Klik Disini </a>
         <li> Framework CSS </li>
-        <p> framework CSS merupakan kerangka kerja yang fungsinya untuk memudahkan developer ketika mendesign sebuah website atau aplikasi </p><br>
-        <p> untuk info lebih lanjut </p><a href="https://www.niagahoster.co.id/blog/css-framework-terbaik/">klik disini</a>
+        <p> framework CSS merupakan kerangka kerja yang fungsinya untuk memudahkan developer ketika mendesign sebuah website atau aplikasi </p>
+        <p> untuk info lebih lanjut <a href="https://www.niagahoster.co.id/blog/css-framework-terbaik/">klik disini</a>
         <li> Framework JS  </li>
-        <p>merupakan kumpulan dari kode JavaScript yang bisa digunakan oleh siapapun untuk info lebih lanjut</p>
-        <a href="https://www.glints.com/id/lowongan/framework-javascript/"
+        <p>merupakan kumpulan dari kode JavaScript yang bisa digunakan oleh siapapun untuk info lebih lanjut
+        <a href="https://www.glints.com/id/lowongan/framework-javascript/"> klik disini</a> </p>
     </ol> 
     </p>
+    </br>
+    </br>
+    <center><a href="{{url('home')}}">Menu Home</a></br>
+    <a href="{{url('home\ContactUs')}}">ContactUs</a>
+    </center>
 </body>
 
 </html>
